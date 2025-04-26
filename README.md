@@ -1,3 +1,6 @@
+## Download package
+The latest version of UnityPackage can be downloaded [here](https://github.com/SvetoslavPanin24/InitializationSystem/releases/latest).
+
 # Application Initialization System Documentation
 
 ## Table of Contents
