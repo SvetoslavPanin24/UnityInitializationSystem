@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/InitializationSystem/Editor/UI/ProjectInitSettingsEditor.uss?fileID=7433441132597879392&amp;guid=d2798ccc6b802684682ca9ff0f009923&amp;type=3#ProjectInitSettingsEditor" />
+    <ui:VisualElement name="settingsContainer" class="container">           
+    </ui:VisualElement>
+</ui:UXML>
