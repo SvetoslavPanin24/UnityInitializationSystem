@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 109299605b536ba49a82cc20ab7b4dc1, type: 3}
   m_Name: Dummy handler
   m_EditorClassIdentifier: 
-  <Enabled>k__BackingField: 0
+  <Enabled>k__BackingField: 1
   IsInitialized: 0
   _data: {fileID: 11400000, guid: a5035b117e1fe5f47ae9956a161e7d79, type: 2}

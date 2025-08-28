@@ -5,7 +5,7 @@ namespace InitializationSystem
     /// <summary>
     /// MonoBehaviour that initializes the project using ProjectInitSettings.
     /// </summary>
-    [DefaultExecutionOrder(-999)]
+ 
     public class Initializer : MonoBehaviour
     {
         [SerializeField] private ProjectInitSettings _initSettings;      

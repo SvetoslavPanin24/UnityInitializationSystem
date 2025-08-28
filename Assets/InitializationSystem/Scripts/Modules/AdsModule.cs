@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using Zenject;
 
 namespace InitializationSystem
 {
@@ -9,8 +10,6 @@ namespace InitializationSystem
     {
         [SerializeField, Tooltip("Reference to the Ads _settings asset.")]
         private AdsSettings _adsSettings;
-        public AdsSettings AdsSettings => _adsSettings;
-
         [SerializeField]private List<AdvertisingHandler> advertisingHandlers = new();  
 
         public override void StartInit() 
@@ -19,9 +18,12 @@ namespace InitializationSystem
             Debug.Log($"[AdsModule]: Additional initialization for Ads module '{this.name}'.");
 
             var handler = advertisingHandlers?.FirstOrDefault(h => h != null && h.Enabled);
+            
+            // Получаем AdsService из ProjectContext вместо использования инъекции
+            var adsService = ProjectContext.Instance.Container.Resolve<AdsService>();
 
             handler.Init();
-            AdsManager.Init(handler, _adsSettings);
+            adsService.Init(handler, _adsSettings);
         }
     }
 }

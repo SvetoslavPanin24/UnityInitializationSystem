@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0ef0d5b0c9f62d499938b7b884f3e18, type: 3}
   m_Name: DefaultSaveHandler
   m_EditorClassIdentifier: 
-  <Enabled>k__BackingField: 0
+  <Enabled>k__BackingField: 1
   IsInitialized: 1
   _serializeType: 1

@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cba7b8d711c3bf4ea686541e8e79c31, type: 3}
   m_Name: ConsoleHandler
   m_EditorClassIdentifier: 
-  <Enabled>k__BackingField: 0
+  <Enabled>k__BackingField: 1
   IsInitialized: 0
-  _consoleContainer: {fileID: 0}
